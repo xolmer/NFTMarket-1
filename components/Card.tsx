@@ -1,6 +1,6 @@
 import React from "react";
-
-const Card = (props) => {
+type Props = any;
+const Card = (props: Props) => {
   const image = props.image;
   const price = props.price;
   return (
